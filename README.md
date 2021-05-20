@@ -5,6 +5,40 @@ It reads Oxygen Concentrator in percentage (%).
 
 This repositiry will focus on Design and Development of Do-it-youself Oxygen Analyzer.
 
+## Table of Contents
+- [DIY Oxygen Analyzer](#diy-oxygen-sensor)
+
+- [Table of Contents](#table-of-contents)
+
+- [Lets Start with Block Diagram](#lets-start-with-block-diagram)
+
+- [Lets Explore OOM202 Oxygen Sensor](#lets-explore-oom202-oxygen-sensor)
+
+  - [OOM202 Sensor Pin Map and Interfacing](#oom202-sensor-pin-map-and-interfacing)
+
+  - [Understanding OOM202 Oxygen Sensor Output Range](#understanding-oom202-oxygen-sensor-output-range)
+
+  - [Converting Sensor Output (mV) to Oxygen Concentration (%)](#converting-sensor-output-(mv)-to-oxygen-concentration-(%))
+
+- [ADS1115 External 16-Bit ADC](#ads1115-external-16-bit-adc)
+
+  - [Technical Specification](#technical-specification)
+
+  - [Understanding Sensor Programmable Gain Amplifier (PGA)](#understanding-sensor-programmable-gain-amplifier-(pga))
+
+- [How this DIY Oxygen Analyzer will Work?](#how-this-diy-oxygen-analyzer-will-work)
+
+- [Breadboard prototype Testing](#breadboard-prototype-testing)
+
+   - [Testing with Known 99.7 % Oxygen](#testing-with-known-99.7-%-oxygen)
+
+   - [Testing with Helium Gas](#testing-with-helium-gas)
+
+- [Acknowledgement and Resources](#acknowledgement-and-resources)
+
+- [License](#license)
+
+
 ## Lets Start with Block Diagram
 <br>
 
@@ -118,7 +152,7 @@ The Sensor is straight forward to use and require external high resolution ADC t
 
 <br>
 
-## ADS115 16-Bit ADC
+## ADS1115 External 16-Bit ADC
 
 ADS1115 has High Precision 16-Bit ADC and also includes Programmable Gain Amplifier upto 16x, to boost up smaller signal/differential signal to full range.
 
@@ -128,7 +162,7 @@ ADS1115 has High Precision 16-Bit ADC and also includes Programmable Gain Amplif
 
 The Datasheet of this ADS1115 can be found here: [**ADS1115_Datasheet**](Datasheets/ads1115.pdf)
 
-### **Technical Specification**
+### Technical Specification
 
 1. Supply Range: 2.0V to 5.5V
 2. Low Current Consumption: Continuous Mode: Only 150µA Single-Shot Mode: Auto Shut-Down
@@ -172,9 +206,11 @@ These readings are in mV which will be converted to Oxygen percent and displayed
 
 Other features will be added as we progress with development.
 
-## Breadboard prototype Testing with Sample of Known Oxygen Concentration and other Gases.
+## Breadboard prototype Testing
 
 The Breadboard prototype is exposed to known sample of oxygen and other gases. The readings are observed on Serial Monitor.
+
+### Testing with Known 99.7 % Oxygen
 
 **For 99.7% Oxygen of Known Sample and considering the baseline sensor voltage 15.4 mV for 20.9% oxygen  the readings Screenshot is given below:**
 
@@ -184,6 +220,8 @@ The Breadboard prototype is exposed to known sample of oxygen and other gases. T
 
 Here the prototype is reading 100 % to 103.82 % for Known Oxygen of 99.7%, we need to write the calibration code and fixing the error as well as saturate the readings for 100 %.
 
+### Testing with Helium Gas
+
 **For Helium Gas where Oxygen is 0 %**
 
 <p align="center">
@@ -191,3 +229,19 @@ Here the prototype is reading 100 % to 103.82 % for Known Oxygen of 99.7%, we ne
 </p>
 
 The prototype here also working fine in the range with negligible error and thus can corrected with calibration.
+
+
+## Acknowledgement and Resources
+
+<br>
+
+
+<br>
+
+
+## License
+
+- Distributed under the  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+<p align="center">
+  <img src="Docs and Tutorials/assets/CC-SA.png">
+</p>
