@@ -6,7 +6,7 @@ It reads Oxygen Concentrator in percentage (%).
 This repositiry will focus on Design and Development of Do-it-youself Oxygen Analyzer.
 
 ## Table of Contents
-- [DIY Oxygen Analyzer](#diy-oxygen-sensor)
+- [DIY Oxygen Analyzer](#diy-oxygen-analyzer)
 
 - [Table of Contents](#table-of-contents)
 
