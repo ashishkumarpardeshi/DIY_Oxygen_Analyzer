@@ -18,7 +18,7 @@ This repositiry will focus on Design and Development of Do-it-youself Oxygen Ana
 
   - [Understanding OOM202 Oxygen Sensor Output Range](#understanding-oom202-oxygen-sensor-output-range)
 
-  - [Converting Sensor Output (mV) to Oxygen (%)](#converting-sensor-output-(mv)-to-oxygen-(%))
+  - [Converting Sensor Output in mV to Oxygen in %](#converting-sensor-output-in-mv-to-oxygen-in-%)
 
 - [ADS1115 External 16-Bit ADC](#ads1115-external-16-bit-adc)
 
@@ -30,7 +30,7 @@ This repositiry will focus on Design and Development of Do-it-youself Oxygen Ana
 
 - [Breadboard prototype Testing](#breadboard-prototype-testing)
 
-   - [Testing with Known 99.7% Oxygen](#testing-with-known-99.7%-oxygen)
+   - [Testing with Known 99.7 Oxygen](#testing-with-known-99.7-oxygen)
 
    - [Testing with Helium Gas](#testing-with-helium-gas)
 
@@ -117,7 +117,7 @@ The datasheet clearly mention for ambient Air it measures between 13 mV to 16 mV
 
 <br>
 
-### Converting Sensor Output (mV) to Oxygen (%)
+### Converting Sensor Output in mV to Oxygen in %
 
 The sensor outputs the mV (millivolt) as per Oxygen Concentration and to convert it into Oxygen percent we can do the simple maths
 
@@ -210,7 +210,7 @@ Other features will be added as we progress with development.
 
 The Breadboard prototype is exposed to known sample of oxygen and other gases. The readings are observed on Serial Monitor.
 
-### Testing with Known 99.7% Oxygen
+### Testing with Known 99.7 Oxygen
 
 **For 99.7% Oxygen of Known Sample and considering the baseline sensor voltage 15.4 mV for 20.9% oxygen  the readings Screenshot is given below:**
 
