@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# myComponents_ESP32_DevBoard
+#
+DEF myComponents_ESP32_DevBoard U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "myComponents_ESP32_DevBoard" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -900 1000 900 -400 0 1 16 N
+X VIN 1 -300 1100 100 D 50 50 1 1 W
+X D19 10 1000 -100 100 L 50 50 1 1 B
+X I2C_SDA/D21 11 1000 400 100 L 50 50 1 1 B
+X I2C_SCL/D22 14 1000 600 100 L 50 50 1 1 B
+X GND 2 100 1100 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
