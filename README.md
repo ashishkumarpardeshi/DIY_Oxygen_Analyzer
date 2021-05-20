@@ -18,19 +18,19 @@ This repositiry will focus on Design and Development of Do-it-youself Oxygen Ana
 
   - [Understanding OOM202 Oxygen Sensor Output Range](#understanding-oom202-oxygen-sensor-output-range)
 
-  - [Converting Sensor Output (mV) to Oxygen Concentration (%)](#converting-sensor-output-(mv)-to-oxygen-concentration-(%))
+  - [Converting Sensor Output (mV) to Oxygen (%)](#converting-sensor-output-(mv)-to-oxygen-(%))
 
 - [ADS1115 External 16-Bit ADC](#ads1115-external-16-bit-adc)
 
   - [Technical Specification](#technical-specification)
 
-  - [Understanding Sensor Programmable Gain Amplifier (PGA)](#understanding-sensor-programmable-gain-amplifier-(pga))
+  - [Understanding ADS1115 Programmable Gain Amplifier](#understanding-ADS1115-programmable-gain-amplifier)
 
 - [How this DIY Oxygen Analyzer will Work?](#how-this-diy-oxygen-analyzer-will-work)
 
 - [Breadboard prototype Testing](#breadboard-prototype-testing)
 
-   - [Testing with Known 99.7 % Oxygen](#testing-with-known-99.7-%-oxygen)
+   - [Testing with Known 99.7% Oxygen](#testing-with-known-99.7%-oxygen)
 
    - [Testing with Helium Gas](#testing-with-helium-gas)
 
@@ -117,7 +117,7 @@ The datasheet clearly mention for ambient Air it measures between 13 mV to 16 mV
 
 <br>
 
-### Converting Sensor Output (mV) to Oxygen Concentration (%)
+### Converting Sensor Output (mV) to Oxygen (%)
 
 The sensor outputs the mV (millivolt) as per Oxygen Concentration and to convert it into Oxygen percent we can do the simple maths
 
@@ -175,7 +175,7 @@ The Datasheet of this ADS1115 can be found here: [**ADS1115_Datasheet**](Datashe
 
 This board/chip uses I2C 7-bit addresses between 0x48-0x4B, selectable with jumpers.
 
-### Understanding Sensor Programmable Gain Amplifier (PGA)
+### Understanding ADS1115 Programmable Gain Amplifier
 
 The Gain of the ADS can be programmed which decides the ADS1115 input voltage range for analog to digital conversion and resolution.
 
@@ -210,7 +210,7 @@ Other features will be added as we progress with development.
 
 The Breadboard prototype is exposed to known sample of oxygen and other gases. The readings are observed on Serial Monitor.
 
-### Testing with Known 99.7 % Oxygen
+### Testing with Known 99.7% Oxygen
 
 **For 99.7% Oxygen of Known Sample and considering the baseline sensor voltage 15.4 mV for 20.9% oxygen  the readings Screenshot is given below:**
 
