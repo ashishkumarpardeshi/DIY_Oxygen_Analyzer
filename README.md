@@ -1,12 +1,31 @@
 # DIY Oxygen Analyzer
 
-Oxygen Analyzer is a device which measures Oxygen concentration in ambient Air, of Oxygen Cylinder, Oxygen Concentration, Medival Ventilators, Incubators etc.
-It reads Oxygen Concentrator in percentage (%).
+Oxygen Analyzer is a device which measures Oxygen concentration in ambient Air, of Oxygen Cylinder, Oxygen Concentrator, Medical Ventilators, Incubators etc.
+It reads Oxygen Concentration in percentage (%).
 
-This repositiry will focus on Design and Development of Do-it-youself Oxygen Analyzer.
+This repositiry will focus on Design and Development of Do-it-youself Oxygen Analyzer (ie designing Prototyping Board, Writing Code and Calibration).
 
+Here we will be also understanding the sensor, its Output voltage, mapping it to Oxygen concentration, calibration, testing and also logging data. 
+
+-------------------
+
+## Repositry Contents
+
+- [/Datasheet](https://github.com/ashishkumarpardeshi/DIY_Oxygen_Analyzer/tree/master/Datasheets) -- Contains datasheets of components used.
+
+- [/Docs and Tutorials](https://github.com/ashishkumarpardeshi/DIY_Oxygen_Analyzer/tree/master/Docs%20and%20Tutorials) -- Contains documentation.
+
+- [/Oxygen_Analyzer_KiCAD](https://github.com/ashishkumarpardeshi/DIY_Oxygen_Analyzer/tree/master/Oxygen_Analyzer_KiCAD/DIY_Oxygen_Analyzer) -- Prototyping Board KiCAD files, 3D Board Images, Schematic pdf and Components Lib, footprint & 3D Models.
+
+- [/Oxygen_Analyzer_Code](https://github.com/sparkfun/SparkFun-KiCad-Libraries/tree/master/Libraries) -- Standard SparkFun KiCad libraries, generated from our Eagle libraries
+
+- [/Sample_Codes_for_Testing_Peripherals](https://github.com/ashishkumarpardeshi/DIY_Oxygen_Analyzer/tree/master/Sample_Codes_for_Testing_Peripherals) -- Sample code for testing inividual peripherals on the prototyping board.
+
+-------------------
 ## Table of Contents
 - [DIY Oxygen Analyzer](#diy-oxygen-analyzer)
+
+- [Repositry Contents](#repositry-contents)
 
 - [Table of Contents](#table-of-contents)
 
@@ -18,7 +37,7 @@ This repositiry will focus on Design and Development of Do-it-youself Oxygen Ana
 
   - [Understanding OOM202 Oxygen Sensor Output Range](#understanding-oom202-oxygen-sensor-output-range)
 
-  - [Converting Sensor Output in mV to Oxygen in %](#converting-sensor-output-in-mv-to-oxygen-in-%)
+  - [Converting Sensor Output in mV to Oxygen Concentration in %](#converting-sensor-output-in-mv-to-oxygen-concentration-in-%)
 
 - [ADS1115 External 16-Bit ADC](#ads1115-external-16-bit-adc)
 
@@ -30,7 +49,7 @@ This repositiry will focus on Design and Development of Do-it-youself Oxygen Ana
 
 - [Breadboard prototype Testing](#breadboard-prototype-testing)
 
-   - [Testing with Known 99.7 Oxygen](#testing-with-known-99.7-oxygen)
+   - [Testing with Known 99.7 % Oxygen](#testing-with-known-99.7-%-oxygen)
 
    - [Testing with Helium Gas](#testing-with-helium-gas)
 
@@ -109,7 +128,7 @@ The datasheet clearly mention for ambient Air it measures between 13 mV to 16 mV
 > - Upper Range = 16 mV x (100 / 20.95 )
 > - **Upper Range = 76.37 mV**
 >
-> So therfore
+> So therefore
 >
 >**For 0 to 100 % of Oxygen, Sensor will output 0 mV to 76.37 mV**.  
 >
@@ -117,7 +136,7 @@ The datasheet clearly mention for ambient Air it measures between 13 mV to 16 mV
 
 <br>
 
-### Converting Sensor Output in mV to Oxygen in %
+### Converting Sensor Output in mV to Oxygen Concentration in %
 
 The sensor outputs the mV (millivolt) as per Oxygen Concentration and to convert it into Oxygen percent we can do the simple maths
 
@@ -210,7 +229,7 @@ Other features will be added as we progress with development.
 
 The Breadboard prototype is exposed to known sample of oxygen and other gases. The readings are observed on Serial Monitor.
 
-### Testing with Known 99.7 Oxygen
+### Testing with Known 99.7 % Oxygen
 
 **For 99.7% Oxygen of Known Sample and considering the baseline sensor voltage 15.4 mV for 20.9% oxygen  the readings Screenshot is given below:**
 
@@ -228,7 +247,7 @@ Here the prototype is reading 100 % to 103.82 % for Known Oxygen of 99.7%, we ne
   <img src="Docs and Tutorials/assets/readings_1.jpg">
 </p>
 
-The prototype here also working fine in the range with negligible error and thus can corrected with calibration.
+The breadboard prototype here also working fine in the range with negligible error and thus can be corrected with calibration.
 
 
 ## Acknowledgement and Resources

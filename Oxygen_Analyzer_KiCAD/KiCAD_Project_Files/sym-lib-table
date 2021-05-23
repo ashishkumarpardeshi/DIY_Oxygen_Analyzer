@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name OLED_128x64_I2C)(type Legacy)(uri /home/ashish/Documents/Embedded_World/Embedded_System_ToolsnResources/KiCAD_Resources/KiCAD_Lib/Ashish_Components/OLED_128x64_I2C.lib)(options "")(descr ""))
+  (lib (name oom202)(type Legacy)(uri /home/ashish/Documents/Embedded_World/Embedded_System_ToolsnResources/KiCAD_Resources/KiCAD_Lib/Ashish_Components/oom202.lib)(options "")(descr ""))
+  (lib (name esp32_devboard_30pin)(type Legacy)(uri /home/ashish/Documents/Embedded_World/Embedded_System_ToolsnResources/KiCAD_Resources/KiCAD_Lib/Ashish_Components/esp32_devboard_30pin.lib)(options "")(descr ""))
+  (lib (name ads1115_module)(type Legacy)(uri /home/ashish/Documents/Embedded_World/Embedded_System_ToolsnResources/KiCAD_Resources/KiCAD_Lib/Ashish_Components/ads1115_module.lib)(options "")(descr ""))
+  (lib (name Transistor_BJT)(type Legacy)(uri /home/ashish/Documents/Embedded_World/Embedded_System_ToolsnResources/KiCAD_Resources/KiCAD_Lib/Ashish_Components/Transistor_BJT.lib)(options "")(descr ""))
+  (lib (name megasaturnv_custom_components)(type Legacy)(uri /home/ashish/Documents/Embedded_World/Embedded_System_ToolsnResources/KiCAD_Resources/KiCAD_Lib/megasaturnv_custom_components.lib)(options "")(descr ""))
+  (lib (name Switch_PushButton)(type Legacy)(uri /home/ashish/Documents/Embedded_World/Embedded_System_ToolsnResources/KiCAD_Resources/KiCAD_Lib/Ashish_Components/Switch_PushButton.lib)(options "")(descr ""))
+)
