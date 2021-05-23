@@ -7,6 +7,11 @@ This repositiry will focus on Design and Development of Do-it-youself Oxygen Ana
 
 Here we will be also understanding the sensor, its Output voltage, mapping it to Oxygen concentration, calibration, testing and also logging data. 
 
+<p align="center">
+  <img src="Oxygen_Analyzer_KiCAD/Board_3D_Images/OXYanalyzer_Proto_1.png">
+</p>
+
+
 -------------------
 
 ## Repositry Contents
@@ -52,6 +57,8 @@ Here we will be also understanding the sensor, its Output voltage, mapping it to
    - [Testing with Known 99.7 % Oxygen](#testing-with-known-99.7-%-oxygen)
 
    - [Testing with Helium Gas](#testing-with-helium-gas)
+
+- [Schematic Design](#breadboard-prototype-testing)
 
 - [Acknowledgement and Resources](#acknowledgement-and-resources)
 
@@ -248,6 +255,17 @@ Here the prototype is reading 100 % to 103.82 % for Known Oxygen of 99.7%, we ne
 </p>
 
 The breadboard prototype here also working fine in the range with negligible error and thus can be corrected with calibration.
+
+## Schematic Design
+
+The schematic is designed in [KiCAD](https://www.kicad.org/), an Open Source PCB designing CAD software.
+
+<p align="center">
+  <img src="Docs and Tutorials/assets/Schematic.png">
+</p>
+
+This schematic PDF can be downloaded here [DIY_Oxygen_Analyzer_Schematic_PDF](Oxygen_Analyzer_KiCAD/Schematic_Pdf/DIY_Oxygen_Analyzer.pdf)
+
 
 
 ## Acknowledgement and Resources
