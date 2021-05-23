@@ -17,7 +17,7 @@ Here we will be also understanding the sensor, its Output voltage, mapping it to
 
 - [/Oxygen_Analyzer_KiCAD](https://github.com/ashishkumarpardeshi/DIY_Oxygen_Analyzer/tree/master/Oxygen_Analyzer_KiCAD/DIY_Oxygen_Analyzer) -- Prototyping Board KiCAD files, 3D Board Images, Schematic pdf and Components Lib, footprint & 3D Models.
 
-- [/Oxygen_Analyzer_Code](https://github.com/sparkfun/SparkFun-KiCad-Libraries/tree/master/Libraries) -- Standard SparkFun KiCad libraries, generated from our Eagle libraries
+- [/Oxygen_Analyzer_Code](https://github.com/ashishkumarpardeshi/DIY_Oxygen_Analyzer/tree/master/Oxygen_Analyzer_Code/Oxygen_Analyzer_Serial) -- Code for DIY Oxygen Analyzer. (Under Development)
 
 - [/Sample_Codes_for_Testing_Peripherals](https://github.com/ashishkumarpardeshi/DIY_Oxygen_Analyzer/tree/master/Sample_Codes_for_Testing_Peripherals) -- Sample code for testing inividual peripherals on the prototyping board.
 
