@@ -15,7 +15,7 @@ Here we will be also understanding the sensor, its Output voltage, mapping it to
 
 - [/Docs and Tutorials](https://github.com/ashishkumarpardeshi/DIY_Oxygen_Analyzer/tree/master/Docs%20and%20Tutorials) -- Contains documentation.
 
-- [/Oxygen_Analyzer_KiCAD](https://github.com/ashishkumarpardeshi/DIY_Oxygen_Analyzer/tree/master/Oxygen_Analyzer_KiCAD/DIY_Oxygen_Analyzer) -- Prototyping Board KiCAD files, 3D Board Images, Schematic pdf and Components Lib, footprint & 3D Models.
+- [/Oxygen_Analyzer_KiCAD](https://github.com/ashishkumarpardeshi/DIY_Oxygen_Analyzer/tree/master/Oxygen_Analyzer_KiCAD) -- Prototyping Board KiCAD files, 3D Board Images, Schematic pdf and Components Lib, footprint & 3D Models.
 
 - [/Oxygen_Analyzer_Code](https://github.com/ashishkumarpardeshi/DIY_Oxygen_Analyzer/tree/master/Oxygen_Analyzer_Code/Oxygen_Analyzer_Serial) -- Code for DIY Oxygen Analyzer. (Under Development)
 
