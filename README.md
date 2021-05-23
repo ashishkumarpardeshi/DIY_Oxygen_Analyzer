@@ -58,7 +58,7 @@ Here we will be also understanding the sensor, its Output voltage, mapping it to
 
    - [Testing with Helium Gas](#testing-with-helium-gas)
 
-- [Schematic Design](#breadboard-prototype-testing)
+- [Schematic Design](#schematic_Design)
 
 - [Acknowledgement and Resources](#acknowledgement-and-resources)
 
