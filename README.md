@@ -264,13 +264,15 @@ The schematic is designed in [KiCAD](https://www.kicad.org/), an Open Source PCB
   <img src="Docs and Tutorials/assets/Schematic.png">
 </p>
 
-This schematic PDF can be downloaded here [DIY_Oxygen_Analyzer_Schematic_PDF](Oxygen_Analyzer_KiCAD/Schematic_Pdf/DIY_Oxygen_Analyzer.pdf)
+This schematic PDF can be downloaded from here [DIY_Oxygen_Analyzer_Schematic_PDF](Oxygen_Analyzer_KiCAD/Schematic_Pdf/DIY_Oxygen_Analyzer.pdf)
 
 
 
 ## Acknowledgement and Resources
 
-<br>
+1. [Prof G Nagarjuna](https://en.wikipedia.org/wiki/Nagarjuna_G.)
+
+2. [Mr Abhijeet Mala]()
 
 
 <br>

@@ -1493,4 +1493,7 @@ Wire Wire Line
 	5500 4050 5500 3950
 Wire Wire Line
 	5500 3950 5400 3950
+Wire Wire Line
+	2000 1100 2000 1200
+Connection ~ 2000 1200
 $EndSCHEMATC
