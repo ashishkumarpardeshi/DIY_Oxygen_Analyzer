@@ -129,7 +129,7 @@ The datasheet clearly mention for ambient Air it measures between 13 mV to 16 mV
 >
 > Sensor measure 13 mV to 16 mV for 20.95% of oxygen
 >
-> If we consider upper value that is 16 mV for 20.95%  oxygen then 
+> If we consider Base value that is 16 mV for 20.95%  oxygen then 
 >
 > The upper range as per linear behviour of OOM202 Sensor will be 
 > - Upper Range = 16 mV x (100 / 20.95 )
