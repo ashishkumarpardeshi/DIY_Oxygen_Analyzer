@@ -11,6 +11,11 @@ Here we will be also understanding the sensor, its Output voltage, mapping it to
   <img src="Oxygen_Analyzer_KiCAD/Board_3D_Images/OXYanalyzer_Proto_1.png">
 </p>
 
+<p align="center">
+  <img src="Docs and Tutorials/assets/proto2.jpg">
+</p>
+
+
 
 -------------------
 
